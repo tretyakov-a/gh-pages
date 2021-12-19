@@ -23,11 +23,11 @@
       </div>
       <nav class="header__nav">
         <div class="header__menu-container">
-          <div class="header__menu-hamburger menu-hamburger">
+          <button class="header__menu-hamburger menu-hamburger">
             <div class="menu-hamburger__line"></div>
             <div class="menu-hamburger__line"></div>
             <div class="menu-hamburger__line"></div>
-          </div>
+          </button>
           <ul class="header-menu">
             <li class="header-menu__item">
               <a class="header-menu__item-link" href="#skills" data-translate="skills">Skills</a>
@@ -59,19 +59,19 @@
           <a class="language-switcher__link" href="#" data-language="ru">ru</a>
         </div>
       </nav>
-    </header>    <section class="hero">
-      <div class="hero__inner">
-        <h1 class="hero__title" data-translate="hero-title">Alexa Rise</h1>
-        <p class="hero__text" data-translate="hero-text">
-          Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
-        </p>
-        <button class="hero__button button button_filled" data-translate="hire">
-          Hire me
-        </button>
-      </div>
-    </section>    <main class="main">
-      <section class="skills section" id="skills">
-        <div class="section__header-container">
+    </header>    <main class="main">
+      <section class="hero">
+        <div class="hero__inner">
+          <h1 class="hero__title" data-translate="hero-title">Alexa Rise</h1>
+          <p class="hero__text" data-translate="hero-text">
+            Save sincere emotions, romantic feelings and happy moments of life together with professional photographer Alexa Rise
+          </p>
+          <button class="hero__button button button_filled" data-translate="hire">
+            Hire me
+          </button>
+        </div>
+      </section>      <section class="skills section" id="skills">
+        <div class="section__header-container skills__header-container">
           <h2 class="section__header" data-translate="skills">Skills</h2>
         </div>
         <div class="section__content">
@@ -270,7 +270,9 @@
         </div>
         <div class="section__content">
           <div class="video__player video-player">
-            <img class="video__player-play-btn" src="images/assets/video/play-btn.svg" alt="play btn placeholder">
+            <button class="video__player-play-btn">
+              <img src="images/assets/video/play-btn.svg" alt="play btn placeholder">
+            </button>
             <img class="video__player-img" src="images/pictures/video/video-player.jpg" alt="video player placeholder">
           </div>
         </div>
@@ -281,7 +283,7 @@
         <div class="section__content">
           <ul class="price__list">
             <li class="price__list-item price-item">
-              <h4 class="price-item__title">Standart</h4>
+              <h3 class="price-item__title">Standart</h3>
               <div class="price-item__price">500&nbsp;&dollar;</div>
               <div class="price-item__text">
                 <span data-translate="price-descripton-1-span-1">One location</span><br />
@@ -295,7 +297,7 @@
               </button>
             </li>
             <li class="price__list-item price-item">
-              <h4 class="price-item__title">Premium</h4>
+              <h3 class="price-item__title">Premium</h3>
               <div class="price-item__price">700&nbsp;&dollar;</div>
               <div class="price-item__text">
                 <span data-translate="price-descripton-2-span-1">One or two locations</span><br />
@@ -309,7 +311,7 @@
               </button>
             </li>
             <li class="price__list-item price-item">
-              <h4 class="price-item__title">Gold</h4>
+              <h3 class="price-item__title">Gold</h3>
               <div class="price-item__price">1000&nbsp;&dollar;</div>
               <div class="price-item__text">
                 <span data-translate="price-descripton-3-span-1">Three locations or more</span><br />
