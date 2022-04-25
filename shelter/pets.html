@@ -8,7 +8,7 @@
   <title>
     Shelter
   </title>
-<script defer src="main-0dbb468f.js"></script><link href="main-0dbb468f.css" rel="stylesheet"></head>
+<script defer src="main-edb636e7.js"></script><link href="main-edb636e7.css" rel="stylesheet"></head>
 <body>
   <div class="modal">
   <div class="modal__window">
@@ -22,7 +22,10 @@
     </div>
   </div>
 </div>
-  <header class="header header_pets">
+  <a class="button button_circle top-button" href="#top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+<header class="header header_pets">
   <div class="header__container container">
     <a class="logo" href=" ./ ">
       <h1 class="logo__title">Cozy House</h1>
@@ -34,10 +37,10 @@
       <div class="header__menu-container">
         <ul class="header-menu">
           <li class="header-menu__item">
-            <a href="./" class="header-menu__link ">About the shelter</a>
+            <a href=" ./ " class="header-menu__link ">About the shelter</a>
           </li>
           <li class="header-menu__item">
-            <a href="./pets.html" class="header-menu__link  header-menu__link_active ">Our pets</a>
+            <a href="#" class="header-menu__link  header-menu__link_active ">Our pets</a>
           </li>
           <li class="header-menu__item">
             <a href="./#help" class="header-menu__link">Help the shelter</a>
@@ -55,103 +58,20 @@
     </nav>
   </div>
 </header>
+
   <section class="pets section" id="pets">
   <div class="pets__container container">
     <h2 class="section__header">Our friends who<br>are looking for a house</h2>
     <div class="section__content">
-      <div class="pets__paginator pets-paginator">
-        <div class="pets-paginator__wrapper">
-          <div class="pets-paginator__container">
-
-            <ul class="pets-paginator__list">
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/katrine-ed5f000e.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Katrine</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/jennifer-e36eb697.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Jennifer</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/woody-9926a26c.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Woody</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/sophia-2344312c.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Sophia</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/timmy-f28b802b.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Timmy</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/charly-ced4e399.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Charly</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/scarlett-642d2287.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Scarlett</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="pets-paginator__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/freddie-fadecb22.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Freddie</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-            </ul>
-          </div>
+      <div class="pets__paginator pets-paginator" data-slider="root">
+        <div class="pets-paginator__container" data-slider="container">
         </div>
         <div class="pets-paginator__controls">
-          <button class="button button_circle button_circle-inactive" data-btn="first">&lt;&lt;</button>
-          <button class="button button_circle button_circle-inactive" data-btn="prev">&lt;</button>
-          <button class="button button_circle button_circle-active" data-btn="page-number">1</button>
-          <button class="button button_circle" data-btn="next">&gt;</button>
-          <button class="button button_circle" data-btn="last">&gt;&gt;</button>
+          <button class="button button_circle button_circle-inactive" data-slider="first">&lt;&lt;</button>
+          <button class="button button_circle button_circle-inactive" data-slider="prev">&lt;</button>
+          <button class="button button_circle button_circle-active" data-slider="slide-number">1</button>
+          <button class="button button_circle" data-slider="next">&gt;</button>
+          <button class="button button_circle" data-slider="last">&gt;&gt;</button>
         </div>
       </div>
     </div>

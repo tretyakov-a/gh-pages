@@ -8,7 +8,7 @@
   <title>
     Shelter
   </title>
-<script defer src="main-0dbb468f.js"></script><link href="main-0dbb468f.css" rel="stylesheet"></head>
+<script defer src="main-edb636e7.js"></script><link href="main-edb636e7.css" rel="stylesheet"></head>
 <body>
   <div class="modal">
   <div class="modal__window">
@@ -22,7 +22,10 @@
     </div>
   </div>
 </div>
-  <header class="header header_main">
+  <a class="button button_circle top-button" href="#top">
+  <i class="fas fa-arrow-up"></i>
+</a>
+<header class="header header_main">
   <div class="header__container container">
     <a class="logo" href="#">
       <h1 class="logo__title">Cozy House</h1>
@@ -34,10 +37,10 @@
       <div class="header__menu-container">
         <ul class="header-menu">
           <li class="header-menu__item">
-            <a href="./" class="header-menu__link  header-menu__link_active ">About the shelter</a>
+            <a href="#" class="header-menu__link  header-menu__link_active ">About the shelter</a>
           </li>
           <li class="header-menu__item">
-            <a href="./pets.html" class="header-menu__link ">Our pets</a>
+            <a href=" ./pets.html " class="header-menu__link ">Our pets</a>
           </li>
           <li class="header-menu__item">
             <a href="./#help" class="header-menu__link">Help the shelter</a>
@@ -55,6 +58,7 @@
     </nav>
   </div>
 </header>
+
   <section class="hero">
   <div class="hero__container container">
     <div class="hero__inner">
@@ -87,51 +91,18 @@
   <div class="main-pets__container container">
     <h2 class="section__header">Our friends who<br>are looking for a house</h2>
     <div class="section__content">
-      <div class="main-pets__slider main-pets-slider">
+      <div class="main-pets__slider main-pets-slider" data-slider="root">
         <div class="main-pets-slider__prev">
-          <button class="button button_circle">
+          <button class="button button_circle" data-slider="prev">
             <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M14 2V4H3V6L0 3L3 0V2H14Z"/>
             </svg>
           </button>
         </div>
-        <div class="main-pets-slider__slide-wrapper">
-          <div class="main-pets-slider__slide-container">
-            <ul class="main-pets-slider__slide">
-              <li class="main-pets-slider__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/katrine-ed5f000e.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Katrine</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-      
-              <li class="main-pets-slider__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/jennifer-e36eb697.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Jennifer</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>            
-              </li>
-      
-              <li class="main-pets-slider__list-item">
-                <div class="pet-card">
-                  <div class="pet-card__img-container">
-                    <img src="images/woody-9926a26c.png" alt="charly">
-                  </div>
-                  <h3 class="pet-card__title">Woody</h3>
-                  <button class="pet-card__button button">Learn more</button>
-                </div>
-              </li>
-            </ul>
-          </div>
+        <div class="main-pets-slider__container" data-slider="container">
         </div>
         <div class="main-pets-slider__next">
-          <button class="button button_circle">
+          <button class="button button_circle" data-slider="next">
             <svg width="14" height="6" viewBox="0 0 14 6" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 4V2L11 2V0L14 3L11 6V4L0 4Z"/>
             </svg>
