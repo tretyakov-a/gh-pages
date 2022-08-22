@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/gh-pages/test/static/css/main.f6cda45e.css",
-    "main.js": "/gh-pages/test/static/js/main.3b03598b.js",
+    "main.css": "/gh-pages/test/static/css/main.2f4ae50c.css",
+    "main.js": "/gh-pages/test/static/js/main.9c25a4f0.js",
     "static/js/787.0c3f432a.chunk.js": "/gh-pages/test/static/js/787.0c3f432a.chunk.js",
+    "static/media/main-background-image.jpg": "/gh-pages/test/static/media/main-background-image.e82607dc7df7ab804128.jpg",
+    "static/media/avatar-placeholder.jpg": "/gh-pages/test/static/media/avatar-placeholder.678cff7ad494d4c8d45b.jpg",
+    "static/media/youtube.svg": "/gh-pages/test/static/media/youtube.d3960f6407bc583fe35b.svg",
+    "static/media/github.svg": "/gh-pages/test/static/media/github.a61b960f2ce17e7b773b.svg",
     "index.html": "/gh-pages/test/index.html",
-    "main.f6cda45e.css.map": "/gh-pages/test/static/css/main.f6cda45e.css.map",
-    "main.3b03598b.js.map": "/gh-pages/test/static/js/main.3b03598b.js.map",
+    "static/media/icon-reverse.svg": "/gh-pages/test/static/media/icon-reverse.97be468179275534f5a7.svg",
+    "main.2f4ae50c.css.map": "/gh-pages/test/static/css/main.2f4ae50c.css.map",
+    "main.9c25a4f0.js.map": "/gh-pages/test/static/js/main.9c25a4f0.js.map",
     "787.0c3f432a.chunk.js.map": "/gh-pages/test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6cda45e.css",
-    "static/js/main.3b03598b.js"
+    "static/css/main.2f4ae50c.css",
+    "static/js/main.9c25a4f0.js"
   ]
 }
