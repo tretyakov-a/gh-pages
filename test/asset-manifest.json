@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gh-pages/test/static/css/main.d0404dfb.css",
-    "main.js": "/gh-pages/test/static/js/main.b5335033.js",
+    "main.css": "/gh-pages/test/static/css/main.5d27f4ea.css",
+    "main.js": "/gh-pages/test/static/js/main.4e4812e8.js",
     "static/js/787.0c3f432a.chunk.js": "/gh-pages/test/static/js/787.0c3f432a.chunk.js",
     "static/media/main-background-image.jpg": "/gh-pages/test/static/media/main-background-image.e82607dc7df7ab804128.jpg",
     "static/media/avatar-placeholder.jpg": "/gh-pages/test/static/media/avatar-placeholder.678cff7ad494d4c8d45b.jpg",
@@ -11,12 +11,12 @@
     "static/media/github.svg": "/gh-pages/test/static/media/github.a61b960f2ce17e7b773b.svg",
     "index.html": "/gh-pages/test/index.html",
     "static/media/icon-reverse.svg": "/gh-pages/test/static/media/icon-reverse.97be468179275534f5a7a36e13d2e5e9.svg",
-    "main.d0404dfb.css.map": "/gh-pages/test/static/css/main.d0404dfb.css.map",
-    "main.b5335033.js.map": "/gh-pages/test/static/js/main.b5335033.js.map",
+    "main.5d27f4ea.css.map": "/gh-pages/test/static/css/main.5d27f4ea.css.map",
+    "main.4e4812e8.js.map": "/gh-pages/test/static/js/main.4e4812e8.js.map",
     "787.0c3f432a.chunk.js.map": "/gh-pages/test/static/js/787.0c3f432a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0404dfb.css",
-    "static/js/main.b5335033.js"
+    "static/css/main.5d27f4ea.css",
+    "static/js/main.4e4812e8.js"
   ]
 }
